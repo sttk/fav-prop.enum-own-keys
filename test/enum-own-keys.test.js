@@ -9,14 +9,13 @@ var enumOwnKeys = fav.prop.enumOwnKeys;
 
 describe('fav.prop.enumOwnKeys', function() {
 
-  it('Should get all property keys when the argument is a plain object',
-  function() {
+  it('Should get enumerable prop keys when arg is a plain object', function() {
     expect(enumOwnKeys({})).to.have.members([]);
     expect(enumOwnKeys({ a: 1, b: true, c: 'C' })).to.have.members(
       ['a', 'b', 'c']);
   });
 
-  it('Should not get properties of prototype', function() {
+  it('Should not get property keys of prototype', function() {
     function Fn0() {}
     Fn0.prototype.a = 1;
     expect(enumOwnKeys(new Fn0())).to.have.members([]);
