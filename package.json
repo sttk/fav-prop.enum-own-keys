@@ -1,6 +1,6 @@
 {
   "name": "@fav/prop.enum-own-keys",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Lists enumerable own property keys of an object.",
   "main": "index.js",
   "files": [
