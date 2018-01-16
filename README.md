@@ -48,7 +48,7 @@ enumOwnKeys({ a: 1, b: true, c: 'C' }); // => ['a', 'b', 'c']
 
 ### <u>enumOwnKeys(obj) : Array</u>
 
-List own enumerable property keys of a given object.
+Lists own enumerable property keys of a given object.
 
 This function returns the same result of `Object.keys(obj)`, but returns an empty array if *obj* is nullish.
 
@@ -111,7 +111,7 @@ This program is free software under [MIT][mit-url] License.
 See the file LICENSE in this distribution for more details.
 
 [repo-url]: https://github.com/sttk/fav-prop.enum-own-keys/
-[npm-img]: https://img.shields.io/badge/npm-v0.1.1-blue.svg
+[npm-img]: https://img.shields.io/badge/npm-v1.0.0-blue.svg
 [npm-url]: https://www.npmjs.com/package/@fav/prop.enum-own-keys
 [mit-img]: https://img.shields.io/badge/license-MIT-green.svg
 [mit-url]: https://opensource.org/licenses/MIT
